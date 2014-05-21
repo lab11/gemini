@@ -1,0 +1,12 @@
+COMPONENT=RpiGeminiTestIpC
+
+PFLAGS += -DCC2420_DEF_CHANNEL=21
+PFLAGS += -DCC2520_DEF_CHANNEL=21
+
+PFLAGS += -DIN6_PREFIX="\"fec0\""
+
+
+GOALS += blip
+
+TINYOS_ROOT_DIR?=../..
+include $(TINYOS_ROOT_DIR)/Makefile.include
