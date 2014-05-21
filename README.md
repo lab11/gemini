@@ -1,4 +1,4 @@
-gemini
+Gemini
 ======
 
-Energy-harvesting true power meter
+Energy-harvesting true power meter.
